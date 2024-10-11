@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI; // Nhớ thêm thư viện này để làm việc với UI
 
 public class MainMenu : MonoBehaviour
@@ -24,5 +25,15 @@ public class MainMenu : MonoBehaviour
         buttonColors.highlightedColor = Color.yellow; // Màu vàng khi hover
         buttonColors.pressedColor = Color.red; // Màu đỏ khi nhấn
         startButton.colors = buttonColors;
+    }
+    public void Play()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+    }
+
+    public void Quit()
+    {
+        Application.Quit();
+        Debug.Log("Player Has Quit The Game");
     }
 }
