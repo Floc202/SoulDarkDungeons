@@ -132,7 +132,7 @@ ScriptedImporter:
       y: 33
       width: 22
       height: 22
-    spriteID: 0a69dac8936dbf44cb989f6f27df4896
+    spriteID: 4c7a9705f267b0b44874a6583a0af3b9
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -152,7 +152,7 @@ ScriptedImporter:
       y: 4
       width: 24
       height: 21
-    spriteID: 14eaaca05ee6b824d9e9e793a494c51b
+    spriteID: ebce50406bb6f814987abbdb880381c2
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -172,7 +172,7 @@ ScriptedImporter:
       y: 63
       width: 21
       height: 20
-    spriteID: f76ac656290241f4999d276f16d417dc
+    spriteID: 841fe644240e1e647a073154f652c20b
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -192,7 +192,7 @@ ScriptedImporter:
       y: 91
       width: 19
       height: 22
-    spriteID: 89f8a96f2fe35aa4795e0fc4314661c6
+    spriteID: 4d91e46fd4e23a3428ba7375bddefb64
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -212,7 +212,7 @@ ScriptedImporter:
       y: 4
       width: 15
       height: 24
-    spriteID: 280f598804543af4798d52baacd659c3
+    spriteID: fe676f93d3c137e49ab4845edd0ec130
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -238,7 +238,7 @@ ScriptedImporter:
         y: 0
         width: 22
         height: 22
-      spriteId: 0a69dac8936dbf44cb989f6f27df4896
+      spriteId: 4c7a9705f267b0b44874a6583a0af3b9
     - name: slime_Frame_1
       frameIndex: 1
       additiveSortOrder: 0
@@ -247,7 +247,7 @@ ScriptedImporter:
         y: 0
         width: 24
         height: 21
-      spriteId: 14eaaca05ee6b824d9e9e793a494c51b
+      spriteId: ebce50406bb6f814987abbdb880381c2
     - name: slime_Frame_2
       frameIndex: 2
       additiveSortOrder: 0
@@ -256,7 +256,7 @@ ScriptedImporter:
         y: 0
         width: 21
         height: 20
-      spriteId: f76ac656290241f4999d276f16d417dc
+      spriteId: 841fe644240e1e647a073154f652c20b
     - name: slime_Frame_3
       frameIndex: 3
       additiveSortOrder: 0
@@ -265,7 +265,7 @@ ScriptedImporter:
         y: 0
         width: 19
         height: 22
-      spriteId: 89f8a96f2fe35aa4795e0fc4314661c6
+      spriteId: 4d91e46fd4e23a3428ba7375bddefb64
     - name: slime_Frame_4
       frameIndex: 4
       additiveSortOrder: 0
@@ -274,7 +274,7 @@ ScriptedImporter:
         y: 0
         width: 15
         height: 24
-      spriteId: 280f598804543af4798d52baacd659c3
+      spriteId: fe676f93d3c137e49ab4845edd0ec130
     linkedCells: []
     parentIndex: -1
   platformSettings:

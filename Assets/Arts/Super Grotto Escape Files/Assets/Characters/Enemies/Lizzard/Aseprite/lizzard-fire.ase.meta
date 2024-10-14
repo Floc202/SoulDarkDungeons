@@ -132,7 +132,7 @@ ScriptedImporter:
       y: 43
       width: 9
       height: 8
-    spriteID: 0d0784d4302d36a47965d12da3026456
+    spriteID: bc4681f911e304a48a20e4d87778fcf2
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -152,7 +152,7 @@ ScriptedImporter:
       y: 24
       width: 11
       height: 11
-    spriteID: abcf2bc849eb848408e828efc46a2b70
+    spriteID: 1e6eef276984dc94db261b888f095199
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -172,7 +172,7 @@ ScriptedImporter:
       y: 4
       width: 8
       height: 9
-    spriteID: 59157946c83257b4391f025a1c941893
+    spriteID: 5074cbd27abedc940987d991bfdb16dd
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -192,7 +192,7 @@ ScriptedImporter:
       y: 4
       width: 12
       height: 12
-    spriteID: 93d8e1ff887d6d4428f9cd6c6058d4e6
+    spriteID: 650073cfd19c06946afad1b71847e5b2
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -218,7 +218,7 @@ ScriptedImporter:
         y: 4
         width: 9
         height: 8
-      spriteId: 0d0784d4302d36a47965d12da3026456
+      spriteId: bc4681f911e304a48a20e4d87778fcf2
     - name: lizzard-fire_Frame_1
       frameIndex: 1
       additiveSortOrder: 0
@@ -227,7 +227,7 @@ ScriptedImporter:
         y: 2
         width: 11
         height: 11
-      spriteId: abcf2bc849eb848408e828efc46a2b70
+      spriteId: 1e6eef276984dc94db261b888f095199
     - name: lizzard-fire_Frame_2
       frameIndex: 2
       additiveSortOrder: 0
@@ -236,7 +236,7 @@ ScriptedImporter:
         y: 3
         width: 8
         height: 9
-      spriteId: 59157946c83257b4391f025a1c941893
+      spriteId: 5074cbd27abedc940987d991bfdb16dd
     - name: lizzard-fire_Frame_3
       frameIndex: 3
       additiveSortOrder: 0
@@ -245,7 +245,7 @@ ScriptedImporter:
         y: 2
         width: 12
         height: 12
-      spriteId: 93d8e1ff887d6d4428f9cd6c6058d4e6
+      spriteId: 650073cfd19c06946afad1b71847e5b2
     linkedCells: []
     parentIndex: -1
   platformSettings:
