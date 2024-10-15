@@ -132,7 +132,7 @@ ScriptedImporter:
       y: 4
       width: 31
       height: 23
-    spriteID: c17e14af6133e84499d7252a2db448a9
+    spriteID: 88cd44800e9e3d14b8d6a60a5c70e641
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -152,7 +152,7 @@ ScriptedImporter:
       y: 35
       width: 33
       height: 21
-    spriteID: 464f935196055a74a9eddfc82177098b
+    spriteID: f4550cc68b697aa4183eb1d469b38cdc
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -172,7 +172,7 @@ ScriptedImporter:
       y: 96
       width: 22
       height: 26
-    spriteID: b63909161d6aedd4c86193725d779516
+    spriteID: d1cfbba408aad614ba6c362a0f56b947
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -192,7 +192,7 @@ ScriptedImporter:
       y: 64
       width: 28
       height: 24
-    spriteID: bfb064a05a3a9994087b732a291a63e7
+    spriteID: 378ce6befff0fa84cb489cb08aa6fbb5
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -218,7 +218,7 @@ ScriptedImporter:
         y: 13
         width: 31
         height: 23
-      spriteId: c17e14af6133e84499d7252a2db448a9
+      spriteId: 88cd44800e9e3d14b8d6a60a5c70e641
     - name: fly-eye_Frame_1
       frameIndex: 1
       additiveSortOrder: 0
@@ -227,7 +227,7 @@ ScriptedImporter:
         y: 14
         width: 33
         height: 21
-      spriteId: 464f935196055a74a9eddfc82177098b
+      spriteId: f4550cc68b697aa4183eb1d469b38cdc
     - name: fly-eye_Frame_2
       frameIndex: 2
       additiveSortOrder: 0
@@ -236,7 +236,7 @@ ScriptedImporter:
         y: 10
         width: 22
         height: 26
-      spriteId: b63909161d6aedd4c86193725d779516
+      spriteId: d1cfbba408aad614ba6c362a0f56b947
     - name: fly-eye_Frame_3
       frameIndex: 3
       additiveSortOrder: 0
@@ -245,7 +245,7 @@ ScriptedImporter:
         y: 11
         width: 28
         height: 24
-      spriteId: bfb064a05a3a9994087b732a291a63e7
+      spriteId: 378ce6befff0fa84cb489cb08aa6fbb5
     linkedCells: []
     parentIndex: -1
   platformSettings:
