@@ -8,12 +8,21 @@ TagManager:
   - Default
   - TransparentFX
   - Ignore Raycast
+<<<<<<< HEAD
   - Player
   - Water
   - UI
   - PlayerHitBox
   - Enemy
   - EnemyHitBox
+=======
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - 
+>>>>>>> DEV
   - 
   - 
   - 
@@ -41,6 +50,7 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+<<<<<<< HEAD
   - name: Background
     uniqueID: 2889619357
     locked: 0
@@ -53,3 +63,5 @@ TagManager:
   - name: Enemy
     uniqueID: 4257998923
     locked: 0
+=======
+>>>>>>> DEV
