@@ -17,4 +17,8 @@ public class SelectLevel : MonoBehaviour
     {
         SceneManager.LoadScene("Level-" + level.ToString());
     }
+    public void BackScene()
+    {
+        SceneManager.LoadScene(0);
+    }
 }

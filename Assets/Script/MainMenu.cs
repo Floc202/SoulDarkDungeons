@@ -6,6 +6,7 @@ using UnityEngine.UI; // Nhớ thêm thư viện này để làm việc với UI
 
 public class MainMenu : MonoBehaviour
 {
+    public int Screen;
 
     public void Play()
     {
@@ -16,5 +17,15 @@ public class MainMenu : MonoBehaviour
     {
         Application.Quit();
         Debug.Log("Player Has Quit The Game");
+    }
+
+    public void OpenScene()
+    {
+        SceneManager.LoadScene(6);
+    }
+
+    public void BackScene()
+    {
+        SceneManager.LoadScene(0);
     }
 }
