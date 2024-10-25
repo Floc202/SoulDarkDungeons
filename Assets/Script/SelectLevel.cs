@@ -15,7 +15,7 @@ public class SelectLevel : MonoBehaviour
     // Update is called once per frame
     public void OpenScene()
     {
-        SceneManager.LoadScene("Level-" + level.ToString());
+        SceneManager.LoadScene("Level-0" + level.ToString());
     }
     public void BackScene()
     {
