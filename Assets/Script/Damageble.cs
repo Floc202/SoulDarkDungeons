@@ -39,6 +39,7 @@ public class Damageble : MonoBehaviour
             if (_health <= 0)
             {
                 IsAlive = false;
+                FindObjectOfType<GameOverManager>().GameOver();
             }
         }
     }
@@ -76,6 +77,7 @@ public class Damageble : MonoBehaviour
             animator.SetBool(AnimationStrings.isAlive, value);
             Debug.Log("IsAlive set " + value);
         }
+        
     }
 
     private void Awake()
@@ -109,4 +111,5 @@ public class Damageble : MonoBehaviour
         }
         return false;
     }
+    
 }
