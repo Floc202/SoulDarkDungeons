@@ -8,14 +8,14 @@ TagManager:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - Ground
   - Water
   - UI
   - Player
   - Enemy
   - PlayerHitBox
   - EnemyHitBox
-  - ground
+  - GroundDetection
   - 
   - 
   - 
@@ -40,13 +40,4 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
-    locked: 0
-  - name: Background
-    uniqueID: 3782686777
-    locked: 0
-  - name: Ground
-    uniqueID: 732880509
-    locked: 0
-  - name: Characters
-    uniqueID: 1557622077
     locked: 0
