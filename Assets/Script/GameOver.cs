@@ -13,7 +13,7 @@ namespace Assets.Script
     public class GameOverManager : MonoBehaviour
     {
         public GameObject gameOverCanvas; // Biến tham chiếu tới GameOverCanvas
-        public bool isGameOver = false;
+
         private void Start()
         {
             gameOverCanvas.SetActive(false); // Ẩn canvas khi game bắt đầu
@@ -21,9 +21,8 @@ namespace Assets.Script
 
         public void GameOver()
         {
-            isGameOver = true;
             gameOverCanvas.SetActive(true); // Hiển thị canvas khi game over
-            //Time.timeScale = 0; // Dừng thời gian trong game
+            Time.timeScale = 0; // Dừng thời gian trong game
         }
 
         public void RestartGame()
