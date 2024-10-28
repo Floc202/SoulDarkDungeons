@@ -39,8 +39,10 @@ public class Damageble : MonoBehaviour
             if (_health <= 0)
             {
                 IsAlive = false;
-                if( gameObject.name.Equals("Player"))
-                 FindObjectOfType<GameOverManager>().GameOver();
+                if (gameObject.name.Equals("Player"))
+                {
+                FindObjectOfType<GameManager>().GameOver();
+                }
             }
         }
     }
