@@ -39,8 +39,10 @@ public class Damageble : MonoBehaviour
             if (_health <= 0)
             {
                 IsAlive = false;
-                if( gameObject.name.Equals("Player"))
-                 FindObjectOfType<GameOverManager>().GameOver();
+                if (gameObject.name.Equals("Player"))
+                {
+                    FindObjectOfType<GameManager>().GameOver();
+                }
             }
         }
     }
@@ -78,7 +80,7 @@ public class Damageble : MonoBehaviour
             animator.SetBool(AnimationStrings.isAlive, value);
             Debug.Log("IsAlive set " + value);
         }
-        
+
     }
 
     private void Awake()
@@ -107,11 +109,10 @@ public class Damageble : MonoBehaviour
 
             IsHit = true;
             damagebleHit?.Invoke(damage, knockback);
-            CharacterEvents.characterDamaged.Invoke(gameObject, damage);
 
             return true;
         }
         return false;
     }
-    
+
 }
