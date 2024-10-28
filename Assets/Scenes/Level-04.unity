@@ -798,7 +798,7 @@ Transform:
   m_GameObject: {fileID: 262137267}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -14.420133, y: -0.58835, z: -10}
+  m_LocalPosition: {x: -15.285297, y: -0.58835, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1207,7 +1207,7 @@ GameObject:
   - component: {fileID: 615332527}
   m_Layer: 5
   m_Name: back
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1822,11 +1822,10 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 1048452149}
-  - component: {fileID: 1048452148}
-  - component: {fileID: 1048452147}
-  m_Layer: 0
-  m_Name: EventSystem
+  - component: {fileID: 615332528}
+  - component: {fileID: 615332527}
+  m_Layer: 5
+  m_Name: back
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
