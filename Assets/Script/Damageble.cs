@@ -7,6 +7,7 @@ using UnityEngine.Events;
 public class Damageble : MonoBehaviour
 {
     public UnityEvent<int, Vector2> damagebleHit;
+    PlayerPrefs playerPrefs;
 
     Animator animator;
 
@@ -109,10 +110,24 @@ public class Damageble : MonoBehaviour
 
             IsHit = true;
             damagebleHit?.Invoke(damage, knockback);
+            CharacterEvents.characterDamaged.Invoke(gameObject, damage);
 
             return true;
         }
         return false;
     }
 
+    public bool Heal(int healthRestore)
+    {
+        if (IsAlive && Health < MaxHealth)
+        {
+            int maxHeal = Mathf.Max(MaxHealth - Health, 0);
+            int actualHeal = Mathf.Min(maxHeal, healthRestore);
+            Health += actualHeal;
+            CharacterEvents.characterHealed.Invoke(gameObject, actualHeal);
+            return true;
+        }
+
+        return false;
+    }
 }
