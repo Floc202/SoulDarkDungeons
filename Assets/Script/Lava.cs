@@ -9,7 +9,7 @@ public class LavaFloor : MonoBehaviour
 
         if (other.CompareTag("Player"))
         {
-            FindObjectOfType<GameOverManager>().GameOver();
+            FindObjectOfType<GameManager>().GameOver();
         }
     }
 
