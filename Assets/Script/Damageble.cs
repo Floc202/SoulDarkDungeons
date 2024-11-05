@@ -7,6 +7,8 @@ using UnityEngine.Events;
 public class Damageble : MonoBehaviour
 {
     public UnityEvent<int, Vector2> damagebleHit;
+    public UnityEvent<int, int> healthChanged;
+
     PlayerPrefs playerPrefs;
 
     Animator animator;
@@ -36,6 +38,7 @@ public class Damageble : MonoBehaviour
         set
         {
             _health = value;
+            healthChanged?.Invoke(_health, MaxHealth);
 
             if (_health <= 0)
             {
