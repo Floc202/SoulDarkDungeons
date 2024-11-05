@@ -1,4 +1,4 @@
-using System.Collections;
+ï»¿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -13,7 +13,7 @@ public class Attack : MonoBehaviour
 
         if (damageble != null)
         {
-            // Ki?m tra xem transform.parent có null không tr??c khi s? d?ng
+            // Ki?m tra xem transform.parent cï¿½ null khï¿½ng tr??c khi s? d?ng
             Vector2 deliveredKnockback = (transform.parent != null && transform.parent.localScale.x > 0)
                 ? knockback
                 : new Vector2(-knockback.x, knockback.y);
