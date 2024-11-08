@@ -19,7 +19,7 @@ public class Slime : MonoBehaviour
     public enum WalkableDirection { Left, Right }
 
     private WalkableDirection _walkDirection;
-    private Vector2 walkDirectionVector = Vector2.right;
+    private Vector2 walkDirectionVector = Vector2.left;
 
     public WalkableDirection WalkDirection
     {
