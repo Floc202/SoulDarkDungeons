@@ -2,19 +2,16 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using TMPro;
-using UnityEditor.SearchService;
 using UnityEngine;
-using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class HealthBar : MonoBehaviour
 {
     public Slider healthSlider;
     public TMP_Text healthBarText;
-    public TMP_Text currentLevel;
 
     Damageble playerDamageble;
-    
+
 
     private void Awake()
     {
@@ -29,11 +26,9 @@ public class HealthBar : MonoBehaviour
     }
     // Start is called before the first frame update
     void Start()
-    {   
-        
+    {
         healthSlider.value = CalculateSliderPercentage(playerDamageble.Health, playerDamageble.MaxHealth);
         healthBarText.text = "HP " + playerDamageble.Health + " / " + playerDamageble.MaxHealth;
-        currentLevel.text = SceneManager.GetActiveScene().name.ToString();
     }
 
     private void OnEnable()
