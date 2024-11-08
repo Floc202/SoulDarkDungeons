@@ -939,7 +939,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 238778945}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Map Border
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1177,7 +1177,7 @@ GameObject:
   - component: {fileID: 393509170}
   - component: {fileID: 393509172}
   - component: {fileID: 393509171}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: big-crate
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7759,7 +7759,7 @@ GameObject:
   - component: {fileID: 1012005894}
   - component: {fileID: 1012005896}
   - component: {fileID: 1012005895}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: crate
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7928,7 +7928,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 51.87812, y: 0.062663674}
+  m_Offset: {x: 51.695602, y: 0.062663674}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -7939,7 +7939,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 109.04599, y: 1.1253273}
+  m_Size: {x: 109.411026, y: 1.1253273}
   m_EdgeRadius: 0
 --- !u!4 &1063783309
 Transform:
@@ -11639,7 +11639,7 @@ GameObject:
   - component: {fileID: 1914578985}
   - component: {fileID: 1914578987}
   - component: {fileID: 1914578986}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: big-crate (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12163,7 +12163,7 @@ GameObject:
   - component: {fileID: 2040125871}
   - component: {fileID: 2040125873}
   - component: {fileID: 2040125872}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: metal-column
   m_TagString: Untagged
   m_Icon: {fileID: 0}
